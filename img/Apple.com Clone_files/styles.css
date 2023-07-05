@@ -1,0 +1,351 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  background: #fff;
+  color: #000;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+a {
+  color: #262626;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+/* Navbar */
+
+.main-nav {
+  background: #F4F6F7;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 45px;
+  font-size: 12px;
+}
+
+.main-nav .logo {
+  width: 40px;
+}
+
+.main-nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-nav ul li {
+  color: whitesmoke;
+  padding: 0 20px;
+  font-weight: 100;
+}
+
+.main-nav ul li a:hover {
+  color: #000;
+}
+
+.main-nav ul.main-menu {
+  flex: 1;
+  margin-left: 20px;
+}
+
+/* Section 1  */
+
+.section-1 {
+  background: #fff;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+}
+
+.section-1 p a {
+  color: #3366CC;
+}
+
+.section-1 p a:hover {
+  border-bottom: 1px solid #3366CC;
+}
+
+/* Section-2  */
+
+.section-2 {
+  background: whitesmoke;
+  height: 20em;
+  padding: 0;
+  margin: 0;
+}
+
+.main-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.help_links {
+  margin: 50px 0;
+}
+
+.help_links ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3366CC;
+}
+
+.store_heading {
+  color: #000;
+}
+
+.heading {
+  font-size: 45px;
+  font-weight: bold;
+  width: 50%;
+  line-height: 1;
+  padding-right: 30px;
+  color: #6e6e73;
+}
+
+/* Section 3  */
+
+.section-3 {
+  background: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.section-3 .img-content {
+  padding: 0 15px;
+  margin: 50px 0px;
+
+}
+
+.section-3 .img-content img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 90px;
+}
+
+.section-3 .img-content p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+/* Section- 4  */
+
+.section-4 {
+  background: whitesmoke;
+  padding: 20px 60px;
+  font-weight: 100;
+}
+
+.section-4 .para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #6e6e73;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.para span {
+  color: #000;
+}
+
+.item-cards-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+
+/* Section 4 - Card 1  */
+
+.item-cards-1_card1 {
+  display: flex;
+  flex-direction: column;
+  height: 499px;
+  width: 389px;
+  background: #000;
+  background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-14-pro-202303_GEO_IN?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1677311461271);
+  background-position: center center;
+  border-radius: 20px;
+  padding-bottom: 30px;
+}
+
+.item-cards-1_card1 p {
+  line-height: 20px;
+  color: #fff;
+  margin-left: 40px;
+  margin-bottom: 16px;
+  font-size: 15px;
+}
+
+.item-cards-1_card1 :nth-child(1) {
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.item-cards-1_card1 :nth-child(2) {
+  font-size: 30px;
+}
+
+
+/* Section 4 - Card 2  */
+
+.item-cards-1_card2 {
+  display: flex;
+  flex-direction: column;
+  height: 499px;
+  width: 399px;
+  background: #F5EBEB;
+  border-radius: 20px;
+  padding-bottom: 30px;
+  background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-macbook-air-202306?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1683844828182);
+  background-position: center center;
+}
+
+.item-cards-1_card2 p {
+  line-height: 30px;
+  color: #000;
+  margin-left: 40px;
+  margin-bottom: 16px;
+  font-size: 15px;
+}
+
+.item-cards-1_card2 :nth-child(1) {
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.item-cards-1_card2 :nth-child(2) {
+  font-size: 30px;
+}
+
+/* Section 4 - Card 3  */
+
+.item-cards-1_card3 {
+  display: flex;
+  flex-direction: column;
+  height: 499px;
+  width: 399px;
+  background: #F5EBEB;
+  border-radius: 20px;
+  padding-bottom: 30px;
+  background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-macbook-air-202306?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1683844828182);
+  background-position: center center;
+}
+
+.item-cards-1_card3 p {
+  line-height: 30px;
+  color: #000;
+  margin-left: 40px;
+  margin-bottom: 16px;
+  margin-right: 16px;
+    
+  font-size: 15px;
+}
+
+.item-cards-1_card3 :nth-child(1) {
+  font-size: 12px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.item-cards-1_card3 :nth-child(2) {
+  font-size: 30px;
+}
+
+
+/* Section 4 - Card 4  */
+
+.item-cards-1_card4 {
+  display: flex;
+  flex-direction: column;
+  height: 499px;
+  width: 399px;
+  background: #F5EBEB;
+  border-radius: 20px;
+  padding-bottom: 30px;
+  background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-macbook-air-202306?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1683844828182);
+  background-position: center center;
+}
+
+.item-cards-1_card4 p {
+  line-height: 30px;
+  color: #000;
+  margin-left: 40px;
+  margin-bottom: 16px;
+  font-size: 15px;
+}
+
+.item-cards-1_card4 :nth-child(1) {
+  font-size: 12px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.item-cards-1_card4 :nth-child(2) {
+  font-size: 30px;
+}
+
+
+
+
+
+/* Section 5  */
+
+.section-5 {
+  background: #f2f2f2;
+}
+
+
+
+.item-cards-2_card1 {
+  display: flex;
+  flex-direction: column;
+  height: 490px;
+  width: 500px;
+  border-radius: 30px;
+  padding-bottom: 30px;
+  background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-50-specialist-help-202305?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1684946879038);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.item-cards-2_card1 p {
+  line-height: 30px;
+  color: #000;
+  margin: 5px 50px;
+  font-size: 15px;
+}
+
+.item-cards-2_card1 :nth-child(1) {
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.item-cards-2_card1 :nth-child(2) {
+  font-size: 30px;
+}
